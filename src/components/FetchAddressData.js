@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./TableStyle.css";
 
-function FetchData() {
+function FetchAddressData() {
   const URL = "https://jsonplaceholder.typicode.com/users";
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -47,4 +47,4 @@ function FetchData() {
   );
 }
 
-export default FetchData;
+export default FetchAddressData;

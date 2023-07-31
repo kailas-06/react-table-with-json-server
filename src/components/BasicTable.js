@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./TableStyle.css";
+import "./BasicTable.css";
 import { useEffect } from "react";
 import axios from "axios";
 

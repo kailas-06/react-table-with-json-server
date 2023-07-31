@@ -1,10 +1,8 @@
 import React from "react";
 import "./App.css";
+import NestedObjectTable from "./components/NestedObjectTable";
 // import BasicTable from "./components/BasicTable";
-import FetchData from "./components/FetchData";
-// import Fragment from "./components/FragmentComponent";
-// import Table from "./components/Table";
-// import Parent from "./components/Parent";
+// import FetchAddressData from "./components/FetchAddressData";
 
 function App() {
   return (
@@ -13,7 +11,8 @@ function App() {
       <Parent></Parent>
       <Table></Table> */}
       {/* <BasicTable /> */}
-      <FetchData />
+      {/* <FetchAddressData /> */}
+      <NestedObjectTable />
     </div>
   );
 }
