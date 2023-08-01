@@ -31,6 +31,7 @@ table td:last-child {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 table td ul li {
   text-align: left;
